@@ -1,0 +1,20 @@
+header {
+  width: 50%;
+  background: brown; }
+  header.w-100 {
+    width: 100%;
+    height: auto; }
+
+.info, .modal-info {
+  color: blue;
+  font-weight: bold;
+  font-size: 1.5em; }
+
+.modal-info {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.modal-info {
+  background: #fff;
+  border: 3px solid blue; }

@@ -1,0 +1,24 @@
+{
+  "name": "music-box",
+  "version": "1.0.0",
+  "description": "Second project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "watch": "node-sass --watch styles/scss/app.scss styles/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalapyha/layout-designer-project-lvl2.git"
+  },
+  "author": "kalapyha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalapyha/layout-designer-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/kalapyha/layout-designer-project-lvl2#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "watch": "^1.0.2"
+  }
+}

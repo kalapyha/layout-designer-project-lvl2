@@ -1,0 +1,27 @@
+header {
+    width: 50%;
+    background: brown;
+  
+    &.w-100 {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .info {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  %flex-element-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.modal-info {
+  @extend %flex-element-center;
+  @extend .info;
+  background: #fff;
+  border: 3px solid blue;
+}
